@@ -10,9 +10,9 @@ services:
     ports:
       - "2181:2181"
 
-  kafka:
+  Kafka:
     image: confluentinc/cp-kafka:7.6.1
-    container_name: kafka
+    container_name: Kafka
     depends_on:
       - zookeeper
     ports:

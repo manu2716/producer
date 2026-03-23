@@ -13,6 +13,7 @@ public class KafkaProducer {
     private final String TOPIC = "test";
 
     public KafkaProducer(KafkaTemplate<String, String> kafkaTemplate) {
+
         this.kafkaTemplate = kafkaTemplate;
     }
 
